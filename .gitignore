@@ -1,0 +1,24 @@
+# Build directories
+build/
+bin/
+
+# VEXcode generated files
+*.vex
+.vscode/
+
+# Compiled files
+*.o
+*.elf
+*.bin
+*.hex
+
+# IDE specific
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp

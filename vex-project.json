@@ -1,0 +1,45 @@
+{
+  "project": {
+    "name": "VexV5-OmniDrive",
+    "description": "VEX V5 Omnidrive Example Project",
+    "creationDate": "2024-01-01T00:00:00.000Z",
+    "platform": "V5",
+    "language": "cpp",
+    "sdkVersion": "V5_1_0_1_15",
+    "ide": "vscode"
+  },
+  "robot": {
+    "name": "OmniBot",
+    "teamNumber": "",
+    "ports": [
+      {
+        "name": "FrontLeft",
+        "type": "Motor",
+        "port": 1,
+        "reverse": false,
+        "gearSetting": "ratio18_1"
+      },
+      {
+        "name": "FrontRight",
+        "type": "Motor",
+        "port": 2,
+        "reverse": true,
+        "gearSetting": "ratio18_1"
+      },
+      {
+        "name": "BackLeft",
+        "type": "Motor",
+        "port": 3,
+        "reverse": false,
+        "gearSetting": "ratio18_1"
+      },
+      {
+        "name": "BackRight",
+        "type": "Motor",
+        "port": 4,
+        "reverse": true,
+        "gearSetting": "ratio18_1"
+      }
+    ]
+  }
+}
